@@ -1,0 +1,10 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_NUTYMINICOLOR_LEFT
+    def_bool $(shields_list_contains,nutyminicolor_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_NUTYMINICOLOR_RIGHT
+    def_bool $(shields_list_contains,nutyminicolor_right)
+
+
+

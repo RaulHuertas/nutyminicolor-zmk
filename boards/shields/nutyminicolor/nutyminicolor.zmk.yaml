@@ -1,0 +1,13 @@
+file_format: "1"
+id: nutyminicolor
+name: NutyMiniColor
+type: shield
+url: https://github.com/RaulHuertas/nutyminicolor-zmk/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - studio
+siblings:
+  - nutyminicolor_left
+  - nutyminicolor_right
