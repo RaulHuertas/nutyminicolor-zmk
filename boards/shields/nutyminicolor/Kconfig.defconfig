@@ -2,7 +2,7 @@ if SHIELD_NUTYMINI_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "NutyMiniColor"
+    default "NMColor"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
