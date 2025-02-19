@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "nutymini.dtsi"
+#include "nutyminicolor.dtsi"
 
 &default_transform {
 	col-offset = <6>;
