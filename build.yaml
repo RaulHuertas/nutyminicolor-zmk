@@ -6,7 +6,7 @@
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
 #board: [ "seeeduino_xiao_ble" ]
-# shield: [ "nutymini_left", "nutymini_right" ]
+# shield: [ "nutyminicolor_left", "nutyminicolor_right" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
