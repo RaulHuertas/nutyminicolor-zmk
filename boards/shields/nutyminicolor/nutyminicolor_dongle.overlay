@@ -1,7 +1,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "nutyminicolor-layouts.dtsi"
-include "nutyminicolor.dtsi"
+#include "nutyminicolor.dtsi"
 &physical_layout0 {
     transform = <&default_transform>;
 };
