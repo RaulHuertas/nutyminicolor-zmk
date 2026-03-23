@@ -31,6 +31,7 @@
 &kp LEFT_CONTROL  &kp Z           &kp X           &kp C             &kp V        &kp B           &kp N           &kp M         &kp COMMA          &kp DOT          &kp FSLH            &kp RIGHT_CONTROL
 &lt 2 TAB         &lt 3 SPACE     &mo 1           &kp C_PLAY        &kp C_MUTE   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN       &kp BACKSPACE    &kp ENTER           &lt 8 ESCAPE
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_1 {
@@ -40,6 +41,8 @@
 &kp LEFT_CONTROL  &kp LEFT_BRACKET    &none               &none                 &kp CAPSLOCK    &to 4                 &kp N1          &kp N2      &kp N3      &kp N4      &kp N5            &kp RIGHT_CONTROL
 &kp TAB           &kp SPACE           &to 0               &none                 &kp C_STOP      &studio_unlock        &studio_unlock  &kp C_NEXT  &kp C_PREV  &kp DELETE  &kp ENTER         &kp K_CONTEXT_MENU
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
+
         };
 
         layer_2 {
@@ -49,6 +52,7 @@
 &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4    &kp F1          &kp F2  &kp F3  &kp F4         &kp F5     &none
 &kp TAB  &kp SPACE     &to 0         &none           &none             &studio_unlock  &studio_unlock  &none   &none   &kp BACKSPACE  &kp ENTER  &kp ESC
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_3 {
@@ -58,6 +62,7 @@
 &none    &none      &none  &none      &none      &none           &kp CAPSLOCK    &studio_unlock   &msc SCRL_LEFT     &msc SCRL_RIGHT  &msc SCRL_DOWN  &none
 &kp TAB  &kp SPACE  &to 0  &none      &none      &studio_unlock  &studio_unlock  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp BACKSPACE    &kp ENTER       &kp ESC
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_4 {
@@ -67,6 +72,7 @@
 &kp LCTRL       &kp Z      &kp X  &kp C  &kp V  &kp B           &kp N           &kp M  &kp COMMA  &kp PERIOD  &kp MINUS  &to 0
 &mo 6           &kp SPACE  &mo 5  &none  &none  &studio_unlock  &studio_unlock  &none  &none      &kp TAB     &kp ENTER  &kp ESC
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_5 {
@@ -76,6 +82,7 @@
 &kp LCTRL       &kp NUMBER_6   &kp N7        &kp N8        &kp N9        &kp N0          &none           &none  &none  &none  &none  &to 0
 &none           &none          &none         &none         &none         &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_6 {
@@ -85,6 +92,7 @@
 &kp LCTRL       &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp LC(N9)        &kp LC(N0)      &none           &none  &none  &none  &none  &to 0
 &none           &none             &none             &none             &none             &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_7 {
@@ -94,6 +102,7 @@
 &none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_8 {
@@ -103,6 +112,7 @@
 &none  &none              &none         &kp C_PREV  &kp C_NEXT  &none           &none           &none  &none  &none  &none  &none
 &none  &none              &none         &none       &none       &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
 
         layer_9 {
@@ -112,6 +122,7 @@
 &none  &none  &none  &none  &none  &none           &none           &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &studio_unlock  &studio_unlock  &none  &none  &none  &none  &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_PREVIOUS C_NEXT>;
         };
     };
 };
